@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T14:04:18.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="sOeCrIwkUvIswZkPUN3M" type="github"><diagram id="m62H5eGzoJ7IRP_rFqw5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-16T15:00:05.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cedNjkl-tNHSjQh37W1K" version="20.3.0" type="github">
+  <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
+    <mxGraphModel dx="2406" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-1" value="AIT-DEV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-2" value="AIT-STAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-3" value="AIT-PROD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-4" value="For Data Scientists&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-5" value="Grafana" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-6" value="Monitoring System&lt;br&gt;consideration:&lt;br&gt;Scalability(Prometheus storage)&lt;br&gt;Low Latency(adjust prometheus resource usage)&lt;br&gt;Reliability(node-exporter-&amp;gt; a push model will push &lt;br&gt;the data periodically into Prom because the batch of &lt;br&gt;jobs might be short-lived and don&#39;t last long enough &lt;br&gt;to be pulled so Prom will know which service down &lt;br&gt;at the first time)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="605" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-7" value="Prometheus" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-8" value="CPU and Memeory&amp;nbsp;&lt;br&gt;Usage for the application pods/&lt;br&gt;MongoDB Usage&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="740" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-9" value="Customer data&lt;br&gt;(datasource from PostgreSQL)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-10" value="ElactisSearch&lt;br&gt;(Log Monitoring)&lt;br&gt;EFK" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-13" value="Dashboard&lt;br&gt;Visualization: present data in graph and charts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="837.5" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-15" value="data collection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="705" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Request count&lt;br&gt;&lt;span style=&quot;&quot;&gt;HTTP Codes from microservices&lt;/span&gt;&amp;nbsp;&lt;br&gt;Request content&lt;br&gt;How? Kong enable monitor function&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="830" width="204.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-17" value="Fluentd" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Filter rule, in the output.conf, edit match rule for kong-http-log rs&lt;br&gt;&amp;nbsp;other wise Fluentd will collect everything thus consume lot of space everyday. 10GB per day&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="820" width="204.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-19" value="Loki" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;convert the data from MongoDB to PostgreSQL(involve flattering data) and do the synchronize job to synchronize the data every 30 minutes(Grafana does not support MongoDB datasource)&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="900" width="204.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-21" value="cluster_cpu_info&lt;br&gt;cluster_memory_info&lt;br&gt;memory_usage_per_namespace&lt;br&gt;system:top_10_memory_usage_pod&lt;br&gt;system:top_10_cpu_usage_pod" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="720" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;A light way collector for system logs&lt;br&gt;-&amp;gt; sometimes data scientists&#39;s running pipeline exit without notice because node&#39;s ephemeral storage is almost full so k8s cleaned the log, Loki can do the work to store the system logs&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1010" width="204.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-23" value="Metrics data is recorded as a time series that contains a set of&amp;nbsp; values with their associated timestamps" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="6kirDKqHaLSGj2kyiDX6-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="745" as="sourcePoint" />
+            <mxPoint x="540" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kirDKqHaLSGj2kyiDX6-25" value="Alert" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="827.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
