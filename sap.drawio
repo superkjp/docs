@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T11:55:56.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eTAb1IQNyom4EgMooVCQ" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:20:33.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I2HpZEfdo23UnyJR-_Ro" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -223,6 +223,45 @@
             <mxPoint x="-120" y="-570" as="sourcePoint" />
             <mxPoint x="-70" y="-620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-12" value="hostPath" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-12" target="Z2HwhACmaqW3cu9f8Wky-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-107.5" y="-685" as="sourcePoint" />
+            <mxPoint x="60" y="-655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-14" value="Cloud Volumes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-15" value="Node" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-16" value="Pod" style="swimlane;" vertex="1" parent="Z2HwhACmaqW3cu9f8Wky-15">
+          <mxGeometry x="30" y="40" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-17" value="container" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Z2HwhACmaqW3cu9f8Wky-16">
+          <mxGeometry x="10" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Z2HwhACmaqW3cu9f8Wky-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="370" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-18" value="AWS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-19" value="GCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-20" value="Cinder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-22" value="In the volume session, you still need to specify&lt;br&gt;the volume connection details such as the&lt;br&gt;volumeID, fsTyps(ext4 or xfs)&lt;br&gt;Cons: user needs to know all the details of the all&lt;br&gt;the meaning means it is not user-friendly for new&lt;br&gt;customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-410" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
