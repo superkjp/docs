@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T12:20:33.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I2HpZEfdo23UnyJR-_Ro" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:23:47.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="elqzVqdsVu-x8NhEkSO2" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-14" value="Cloud Volumes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-237.5" y="-420" width="120" height="60" as="geometry" />
+          <mxGeometry x="-237.5" y="-400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-15" value="Node" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="10" y="-480" width="200" height="200" as="geometry" />
@@ -262,6 +262,20 @@
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-22" value="In the volume session, you still need to specify&lt;br&gt;the volume connection details such as the&lt;br&gt;volumeID, fsTyps(ext4 or xfs)&lt;br&gt;Cons: user needs to know all the details of the all&lt;br&gt;the meaning means it is not user-friendly for new&lt;br&gt;customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="-410" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.457;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-23" target="Z2HwhACmaqW3cu9f8Wky-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="-220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1" y="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-23" value="Persistent Volume Claim(PVC)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="-250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-25" value="User interact with a series of abstraction and&lt;br&gt;those abstractions will give you access to the&lt;br&gt;underlying cloud provided back-end storage&lt;br&gt;volumes&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-250" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
