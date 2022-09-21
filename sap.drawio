@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T12:23:20.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ufM7DFXBQ-wVt6ImBTh8" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T12:24:58.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MiOc47UDXGYXwYaD-gXS" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -373,8 +373,8 @@
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-56" value="why do we need VPC?&amp;nbsp;&lt;br&gt;People want more of the networking, they want&lt;br&gt;to decide their own networking scheme, they&amp;nbsp;&lt;br&gt;need to control what traffic comes in, what traffic&lt;br&gt;goes out, these things are not available in initial&lt;br&gt;ec2 instance.&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="1650" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Z2HwhACmaqW3cu9f8Wky-59" value="WIth VPC, we can decide the ip addressing scheme, decide on public networks, private networks, the subnets into multiple availability zone to achieve high availability etc" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1670" width="290" height="60" as="geometry" />
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-59" value="WIth VPC, we can decide the ip addressing scheme, decide on public networks, private networks, the subnets into multiple availability zone to achieve high availability etc&lt;br&gt;And within VPC, we can control over network environment, select IP address range, subnets, and configure route tables and gateways." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1645" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
