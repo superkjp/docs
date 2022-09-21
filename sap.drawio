@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T11:30:47.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hoYdPc77Eh4isQfbslA3" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T12:23:20.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ufM7DFXBQ-wVt6ImBTh8" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -320,22 +320,22 @@
           <mxGeometry x="370" y="-1060" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-40" value="&lt;span style=&quot;background-color: rgb(255, 250, 165);-en-clipboard:true;&quot;&gt;how to make sure the ETCD cluster’s health?&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="1185" width="270" height="30" as="geometry" />
+          <mxGeometry x="-95" y="1210" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-41" target="Z2HwhACmaqW3cu9f8Wky-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-41" value="Dailtest" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-335" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="-335" y="1295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-42" target="Z2HwhACmaqW3cu9f8Wky-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-42" value="Get ETCD cluster Info" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="-170" y="1295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-43" value="1. We use CMDB to store&lt;br&gt;ETCD cluster info including&amp;nbsp;&lt;br&gt;authorization method (TLS or RBAC)&lt;br&gt;2. Through CMDB we got cluster name&lt;br&gt;and endpoint&#39;s ip address" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1330" width="230" height="90" as="geometry" />
+          <mxGeometry x="-170" y="1355" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-44" target="Z2HwhACmaqW3cu9f8Wky-49">
           <mxGeometry relative="1" as="geometry" />
@@ -344,19 +344,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-44" value="using paramiko to execute shell command on ETCD" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="47.5" y="1295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-47" value="For TLS, using etcdctl with ca.crt, client.key&lt;br&gt;and client.crt + endpoint health&amp;nbsp;&lt;br&gt;For RBAC, directly using etcdctl with root&lt;br&gt;username and password to check endpoint&lt;br&gt;health" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="45" y="1330" width="250" height="90" as="geometry" />
+          <mxGeometry x="45" y="1355" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-48" value="on jump server" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="1240" width="100" height="30" as="geometry" />
+          <mxGeometry x="47.5" y="1265" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-49" value="We specify the importance of the ETCD cluster from P1 to P5, we ignore checking test cluster" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="1450" width="122.5" height="80" as="geometry" />
+          <mxGeometry x="47.5" y="1475" width="122.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-52" value="Send alert to&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="1295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-54" value="VPC concept" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="1625" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-55" target="Z2HwhACmaqW3cu9f8Wky-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-55" target="Z2HwhACmaqW3cu9f8Wky-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-55" value="VPC&lt;br&gt;(virtual private cloud)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-56" value="why do we need VPC?&amp;nbsp;&lt;br&gt;People want more of the networking, they want&lt;br&gt;to decide their own networking scheme, they&amp;nbsp;&lt;br&gt;need to control what traffic comes in, what traffic&lt;br&gt;goes out, these things are not available in initial&lt;br&gt;ec2 instance.&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1650" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-59" value="WIth VPC, we can decide the ip addressing scheme, decide on public networks, private networks, the subnets into multiple availability zone to achieve high availability etc" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1670" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
