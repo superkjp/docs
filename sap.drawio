@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T05:17:49.480Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uOXCZHeMuQPTvJwU70Fs" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T05:25:23.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="J9VlCCkbihEfCDt2ddQZ" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -441,8 +441,14 @@
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-75" target="Z2HwhACmaqW3cu9f8Wky-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2HwhACmaqW3cu9f8Wky-82" value="route table: contains route entries. If we think it&lt;br&gt;as road and road-signs analogy, the router is the&lt;br&gt;road and the road-signs are the route entries." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-82" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;route table: contains route entries. If we think it&lt;br&gt;as road and road-signs analogy, the router is the&lt;br&gt;road and the road-signs are the route entries." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-610" y="1985" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-84" value="EC2 instance in private subnet connects to VPC NAT GW through route table in private subnet and &lt;br&gt;connects to internet Gateway through route table in public subnet through route table in public subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="2170" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-85" value="&lt;b&gt;Question&lt;/b&gt;: how dies it know subnet has to go to the Internet Gateway or NAT gateway?&lt;br&gt;Route table -&amp;gt; route table is attached to the subnet. Route table will tell EC2 instance it has&amp;nbsp;&lt;br&gt;to forward the traffic to the internet gateway(for the public subnet) or it has to form the traffic&lt;br&gt;to the NAT gateway (for private subnet)&lt;br&gt;* Route table exist in both public subnet and private subnet&lt;br&gt;Because Route table in private network tells the instance through route table to the NAT gateway&lt;br&gt;in Public subnet and Route table in public subnet tells instance through the Route table to go to&amp;nbsp;&lt;br&gt;Internet Gateway" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1920" width="540" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
