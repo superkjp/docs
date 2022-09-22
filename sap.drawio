@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T12:24:58.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="MiOc47UDXGYXwYaD-gXS" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T02:03:30.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WctA0TNUP4_T5Rew5g2I" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -375,6 +375,21 @@
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-59" value="WIth VPC, we can decide the ip addressing scheme, decide on public networks, private networks, the subnets into multiple availability zone to achieve high availability etc&lt;br&gt;And within VPC, we can control over network environment, select IP address range, subnets, and configure route tables and gateways." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-450" y="1645" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-61" value="Class A:&amp;nbsp; 10.0.0.0 - 10.255.255.255&lt;br&gt;Class B: 172.16.0.0 - 172.31.255.255&lt;br&gt;Class C: 192.168.0.0 - 192.168. 255.255&lt;br&gt;Subnet Mask: decide on the network that an IP address range starts at what IP, ends at what IP(in other word, how many ip address can you get from the ip range.)" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1650" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1900" width="600" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-63" value="Internet Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-64" value="VPC" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1870" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-65" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;An internet gateway is a service that allows for internet traffic to actually enter into a VPC.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Otherwise, a VPC is completely segmented off and then the only way to get to it is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;potentially&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;through a VPN connection rather than through an internet connection.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;An Internet Gateway&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;is a &lt;b&gt;logical connection&lt;/b&gt; between an AWS VPC and the Internet. It is &lt;b&gt;not a&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;physical&lt;/b&gt; device.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Each VPC has only one Internet Gateway&lt;/b&gt;. If a VPC doesn’t have an Internet Gateway,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;then&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the resources cannot be accessed from the Internet. Conversely, resources within&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;your VPC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;need an Internet Gateway to access the Internet.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1880" width="520" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
