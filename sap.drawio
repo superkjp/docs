@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T02:04:13.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HKYDHHnVTdXZ6IYeVh8D" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T05:06:45.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZtofHtE83yhRmWadqqtH" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -393,6 +393,24 @@
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-65" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;An internet gateway is a service that allows for internet traffic to actually enter into a VPC.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Otherwise, a VPC is completely segmented off and then the only way to get to it is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;potentially&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;through a VPN connection rather than through an internet connection.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;An Internet Gateway&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;is a &lt;b&gt;logical connection&lt;/b&gt; between an AWS VPC and the Internet. It is &lt;b&gt;not a&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;physical&lt;/b&gt; device.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Each VPC has only one Internet Gateway&lt;/b&gt;. If a VPC doesn’t have an Internet Gateway,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;then&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the resources cannot be accessed from the Internet. Conversely, resources within&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;your VPC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;need an Internet Gateway to access the Internet.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="1765" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-68" value="public subnet" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-277.5" y="1945" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-69" value="private subnet" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1945" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-70" value="EC2" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z2HwhACmaqW3cu9f8Wky-69">
+          <mxGeometry x="25" y="125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-71" value="bastion&lt;br&gt;Host" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2070" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-71" target="Z2HwhACmaqW3cu9f8Wky-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="2000" as="sourcePoint" />
+            <mxPoint x="70" y="2140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
