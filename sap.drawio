@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T05:06:45.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZtofHtE83yhRmWadqqtH" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T05:09:12.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wpE-wNbOcQcvY4fge34M" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -403,6 +403,17 @@
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-70" value="EC2" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z2HwhACmaqW3cu9f8Wky-69">
           <mxGeometry x="25" y="125" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-75" value="Route&lt;br&gt;Table" style="whiteSpace=wrap;html=1;" vertex="1" parent="Z2HwhACmaqW3cu9f8Wky-69">
+          <mxGeometry x="-26" y="45" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-71" target="Z2HwhACmaqW3cu9f8Wky-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="2095" />
+              <mxPoint x="-230" y="2028" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-71" value="bastion&lt;br&gt;Host" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2070" width="50" height="50" as="geometry" />
         </mxCell>
@@ -411,6 +422,21 @@
             <mxPoint x="90" y="2000" as="sourcePoint" />
             <mxPoint x="70" y="2140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-74" target="Z2HwhACmaqW3cu9f8Wky-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-74" value="VPC&amp;nbsp;&lt;br&gt;NAT&lt;br&gt;GW" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="1990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-76" target="Z2HwhACmaqW3cu9f8Wky-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-76" value="Route&lt;br&gt;Table" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-75" target="Z2HwhACmaqW3cu9f8Wky-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
