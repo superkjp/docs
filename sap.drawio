@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T07:00:54.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BdcmCj0c8OqvQPnn0IUp" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T07:01:25.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7evlWyIXQwqST7E2t9Nu" version="20.3.2" type="github">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2406" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -319,7 +319,7 @@
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-35" value="1. recover the compressed folder back to /var/lib/docker&lt;br&gt;and decompress it&amp;nbsp;&lt;br&gt;2. start docker again" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="-1060" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z2HwhACmaqW3cu9f8Wky-40" value="&lt;span style=&quot;background-color: rgb(255, 250, 165);-en-clipboard:true;&quot;&gt;how to make sure the ETCD cluster’s health?&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Z2HwhACmaqW3cu9f8Wky-40" value="&lt;font style=&quot;background-color: rgb(0, 0, 0);&quot; color=&quot;#ffffff&quot;&gt;how to make sure the ETCD cluster’s health?&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-95" y="1210" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z2HwhACmaqW3cu9f8Wky-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z2HwhACmaqW3cu9f8Wky-41" target="Z2HwhACmaqW3cu9f8Wky-42">
