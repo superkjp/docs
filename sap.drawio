@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T08:00:07.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="W7X_j-9ieJVq_SvbaXyX" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-25T08:12:37.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AGeSRktZa25i_NgUqzWe" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2658" dy="2226" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -457,19 +457,30 @@
           <mxGeometry x="-110" y="2370" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VOo2vE9pOi1vEBzfr_b7-4" value="" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-607" y="2580" width="1255" height="593" as="geometry" />
+          <mxGeometry x="-708" y="2580" width="1356" height="593" as="geometry" />
         </mxCell>
-        <mxCell id="TWUK73iuxO_XH4wwQ0wg-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-853" y="2489" width="40" height="20" as="geometry" />
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;startArrow=none;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-33" target="TWUK73iuxO_XH4wwQ0wg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-2" target="TWUK73iuxO_XH4wwQ0wg-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Kong API Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="2555" width="159" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TWUK73iuxO_XH4wwQ0wg-6" value="ISM(incident solution matching)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-478" y="2682" width="268" height="60" as="geometry" />
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-6" value="ISM(incident solution matching)&lt;br&gt;Check Object Storage version and doing the rolling update 50% maxUnavailable every morning 6am" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-517" y="2683.5" width="277" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-8" target="TWUK73iuxO_XH4wwQ0wg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-649" y="3027" />
+              <mxPoint x="-649" y="2728" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-8" value="object storage(save training data model)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-374.5" y="2989" width="164.5" height="100" as="geometry" />
+          <mxGeometry x="-487" y="2977" width="164.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-10" target="TWUK73iuxO_XH4wwQ0wg-11">
           <mxGeometry relative="1" as="geometry" />
@@ -478,13 +489,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-10" value="MongoDB(replicaset, 1 primary and 2 slave)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="323" y="2805" width="253" height="84" as="geometry" />
+          <mxGeometry x="290" y="2900" width="253" height="84" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-11" value="Mgob(whole back up 1&#39;s a day for specified database)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="268" y="2949" width="172" height="75" as="geometry" />
+          <mxGeometry x="240" y="3036" width="172" height="75" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-13" value="MongoDB incremental backup" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="463" y="2949" width="172" height="75" as="geometry" />
+          <mxGeometry x="440" y="3033" width="172" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;startArrow=none;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-18" target="TWUK73iuxO_XH4wwQ0wg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;startArrow=none;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-1" target="TWUK73iuxO_XH4wwQ0wg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-16" value="Pipeline running on Kubeflow" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-487" y="2817" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-21" target="TWUK73iuxO_XH4wwQ0wg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-21" value="Solution summary service(same as ISM, auto update every morning to grad the dataset from MongoDB)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="2682" width="294" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-24" target="TWUK73iuxO_XH4wwQ0wg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-24" target="TWUK73iuxO_XH4wwQ0wg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-24" value="1. Create Service in Kong API Gateway&lt;br&gt;2. Add route to the specified service based on API definition(Usually we only offer GET )&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="2680" width="329" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-33" value="Offer&amp;nbsp; oauth verification&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-305.5" y="2622" width="188" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=none;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-2" target="TWUK73iuxO_XH4wwQ0wg-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40.25" y="2615.000000000001" as="sourcePoint" />
+            <mxPoint x="-378.5" y="2683.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-18" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="2877" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-35" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=none;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-16" target="TWUK73iuxO_XH4wwQ0wg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-367" y="2847" as="sourcePoint" />
+            <mxPoint x="289.99999999999955" y="2941.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-1" value="upload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="2900" width="66" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=none;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-16" target="TWUK73iuxO_XH4wwQ0wg-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-427" y="2877" as="sourcePoint" />
+            <mxPoint x="-404.75" y="2977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-38" value="download &lt;br&gt;data model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="2822" width="97" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
