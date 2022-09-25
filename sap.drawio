@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T08:12:37.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AGeSRktZa25i_NgUqzWe" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-25T08:15:32.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TgvQn8FsOQrkmq5RsubA" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2658" dy="2226" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -468,6 +468,14 @@
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Kong API Gateway&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="2555" width="159" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-6" target="TWUK73iuxO_XH4wwQ0wg-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="2856" />
+              <mxPoint x="343" y="2856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-6" value="ISM(incident solution matching)&lt;br&gt;Check Object Storage version and doing the rolling update 50% maxUnavailable every morning 6am" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-517" y="2683.5" width="277" height="88" as="geometry" />
         </mxCell>
@@ -506,11 +514,11 @@
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-16" value="Pipeline running on Kubeflow" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-487" y="2817" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TWUK73iuxO_XH4wwQ0wg-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-21" target="TWUK73iuxO_XH4wwQ0wg-10">
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;startArrow=none;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-44" target="TWUK73iuxO_XH4wwQ0wg-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TWUK73iuxO_XH4wwQ0wg-21" value="Solution summary service(same as ISM, auto update every morning to grad the dataset from MongoDB)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="269.5" y="2682" width="294" height="93" as="geometry" />
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-21" value="Solution summary service(same as ISM, auto update every morning to grad the dataset from MongoDB)&lt;br&gt;SSS will check whether soln hit the results stored in memory, if not, call MongoDB, otherwise return None&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="2682" width="349.5" height="119" as="geometry" />
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-24" target="TWUK73iuxO_XH4wwQ0wg-21">
           <mxGeometry relative="1" as="geometry" />
@@ -550,6 +558,18 @@
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-38" value="download &lt;br&gt;data model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-643" y="2822" width="97" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-44" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="394" y="2817" width="50" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=none;startSize=14;endSize=14;" edge="1" parent="1" source="TWUK73iuxO_XH4wwQ0wg-21" target="TWUK73iuxO_XH4wwQ0wg-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.5" y="2775.000000000001" as="sourcePoint" />
+            <mxPoint x="416.5" y="2899.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-47" value="internal &lt;br&gt;call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="13" y="2780" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
