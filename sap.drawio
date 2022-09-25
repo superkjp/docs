@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T08:29:01.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="21AqrSE3UYfpUQvNe2on" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-25T08:30:37.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="foeHGxCO0rwLVuRKx333" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
-    <mxGraphModel dx="2658" dy="2226" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="1834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="6kirDKqHaLSGj2kyiDX6-9" value="Customer data&lt;br&gt;(datasource from PostgreSQL)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="977.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="6kirDKqHaLSGj2kyiDX6-10" target="TWUK73iuxO_XH4wwQ0wg-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6kirDKqHaLSGj2kyiDX6-10" value="ElactisSearch&lt;br&gt;(Log Monitoring)&lt;br&gt;EFK" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="892.5" width="120" height="60" as="geometry" />
@@ -570,6 +573,9 @@
         </mxCell>
         <mxCell id="TWUK73iuxO_XH4wwQ0wg-47" value="internal &lt;br&gt;call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="13" y="2780" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TWUK73iuxO_XH4wwQ0wg-54" value="Elasticsearch Curator(remove outdated data periodically)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="732" y="977.5" width="163" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
