@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T14:37:02.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="t1VuOmOwsNwCYR_rhMMW" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-26T14:37:17.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cW4FZXRNVJ1prM7u7A_8" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2583" dy="2160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -694,7 +694,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-42" value="Dev/Stag/Prod" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="4686" width="120" height="60" as="geometry" />
+          <mxGeometry x="-256" y="4686" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-43" value="Developing environment can be arranged and allocate&lt;br&gt;sufficient resources for developers to run and test before&lt;br&gt;optimizing their work. As for staging and production,&lt;br&gt;they have absolutely 100% match for the configuration&lt;br&gt;as services will been sufficiently tested before publish&lt;br&gt;to the production environment. Same configuration involves&lt;br&gt;CPU, Memory, Ingress and Egress configuration etc." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-56" y="4636" width="439" height="146" as="geometry" />
