@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T13:08:58.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="X3kkC29w-2r1dbHZC5gq" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-26T14:23:50.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ReMcl5-SBId5IRoHwPyx" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2583" dy="2160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -624,6 +624,62 @@
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-15" value="once the usage is done(pod been deleted), &lt;br&gt;developer can delete the pvc and reclaim it" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="412" y="3364.5" width="322" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-18" target="lnfehciOJVkA-raJa4MN-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-74.5" y="3906.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-18" value="CodeBase" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="3876.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-20" value="once codebase tracked in &lt;br&gt;revision control, many deploys&lt;br&gt;Many deploy means same code&lt;br&gt;execute and been deployed on&lt;br&gt;developing system, staging and&lt;br&gt;Production system" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="3843" width="244" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-21" target="lnfehciOJVkA-raJa4MN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-21" value="Config" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="4002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-22" value="separate the code and the configuration. &lt;br&gt;Configuration involve the verification &lt;br&gt;information for code to interact with &lt;br&gt;MongoDB, PostgreSQL. This can be&lt;br&gt;implemented by Kubernetes configMap or&lt;br&gt;Secrets, do not hardcode with code" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-47" y="3976" width="314" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-24" target="lnfehciOJVkA-raJa4MN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-24" value="Backing Services" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="4131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-25" value="This indicates the any service the application&lt;br&gt;consumes over the network as part of its&lt;br&gt;normal operation. Such as MongoDB, Redis.&lt;br&gt;Application should be able to call those services&lt;br&gt;via correspondence API" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="4107.5" width="358" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-27" target="lnfehciOJVkA-raJa4MN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-27" value="Build, release,run" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="4257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-28" value="While implementing CI and CD on separate k8s&lt;br&gt;cluster especially on prod environment, release &lt;br&gt;and run procedures have to be carefully considered&lt;br&gt;and monitored. Prepare to rollback to the previous&lt;br&gt;version if something back happened." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="4233" width="383" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-31" target="lnfehciOJVkA-raJa4MN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-31" value="stateless&lt;br&gt;process" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="4364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-32" value="stateless service: eliminate the dependency between&lt;br&gt;the application and dataset. In this case, it can increase&lt;br&gt;the speed for scaling&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="4356" width="411" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-36" target="lnfehciOJVkA-raJa4MN-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-36" value="Port Binding" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="4464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lnfehciOJVkA-raJa4MN-37" value="services expose to the outside via port (this can be &lt;br&gt;implemented via REST API). Instead of using unix&amp;nbsp;&lt;br&gt;socket or IPC" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="4456" width="377" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
