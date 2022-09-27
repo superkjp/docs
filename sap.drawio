@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T12:20:33.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Fy_JrgvpGbT90wgvlhMg" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-27T12:37:58.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CI6wtxr2MV4N1jPR6K4b" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -700,6 +700,27 @@
         </mxCell>
         <mxCell id="n_RDtHxAtoa_cvilBNTn-1" value="scenario: Today is the time of micrioservice architecture, and our applications are&amp;nbsp;&lt;br&gt;implementing the microservice design, we have containerized our application. Our&lt;br&gt;scientists are making the code changed on Github repository to make our product&lt;br&gt;better and better. So in order to cope up with the regular code changes, it requirs&lt;br&gt;the continuous build and regular build of container images and regular deployment&lt;br&gt;to our orchestration tool, our Kubernetes cluster.&lt;br&gt;=&amp;gt; so as soon as the developers made the code change, we should automatically&lt;br&gt;build a docker image and should be able to also deploy it automatically to our k8s&lt;br&gt;cluster(developing and stagging environment).&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-906.5" y="80" width="601" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-2" target="n_RDtHxAtoa_cvilBNTn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-2" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-28.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-5" target="n_RDtHxAtoa_cvilBNTn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-5" value="trigger with poll SCM&lt;br&gt;to keep watching Github repo every minute" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="111.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-7" value="Use ansible to build, commit and pull docker image to the docker repo and prepare for the dependency environment for deploying&lt;br&gt;yaml file on Kubernetes in ansible handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="248.5" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-11" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;startSize=14;endSize=14;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-5" target="6kirDKqHaLSGj2kyiDX6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="161.5" as="sourcePoint" />
+            <mxPoint x="65" y="111.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
