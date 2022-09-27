@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T01:12:32.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0KILpuuB_CYFC4vI5rIs" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-27T01:23:09.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7MMh2bzt8GhB-urVJnl-" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2384" dy="2053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -633,8 +633,8 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-18" value="CodeBase" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-260" y="3876.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-20" value="once codebase is tracked in&lt;br&gt;revision control, many deploys&lt;br&gt;Many deploys mean same code&lt;br&gt;execute and been deployed on&lt;br&gt;developing system, staging and&lt;br&gt;Production system" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-49" y="3843" width="244" height="127" as="geometry" />
+        <mxCell id="lnfehciOJVkA-raJa4MN-20" value="Codebase is used in tracking&lt;br&gt;revision control and apply many &lt;br&gt;deploys. Many deploys mean &lt;br&gt;same code will be executed and &lt;br&gt;deployed on different systems.&lt;br&gt;Developing system, Staging and &lt;br&gt;Production system" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="3834" width="247" height="146" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-21" target="lnfehciOJVkA-raJa4MN-22">
           <mxGeometry relative="1" as="geometry" />
