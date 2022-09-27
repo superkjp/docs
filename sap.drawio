@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T12:20:28.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4GRSYQCyXykHy2DdGvkv" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-27T12:20:33.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Fy_JrgvpGbT90wgvlhMg" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -699,7 +699,7 @@
           <mxGeometry x="-56" y="4802" width="416" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n_RDtHxAtoa_cvilBNTn-1" value="scenario: Today is the time of micrioservice architecture, and our applications are&amp;nbsp;&lt;br&gt;implementing the microservice design, we have containerized our application. Our&lt;br&gt;scientists are making the code changed on Github repository to make our product&lt;br&gt;better and better. So in order to cope up with the regular code changes, it requirs&lt;br&gt;the continuous build and regular build of container images and regular deployment&lt;br&gt;to our orchestration tool, our Kubernetes cluster.&lt;br&gt;=&amp;gt; so as soon as the developers made the code change, we should automatically&lt;br&gt;build a docker image and should be able to also deploy it automatically to our k8s&lt;br&gt;cluster(developing and stagging environment).&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1014" y="98" width="601" height="185" as="geometry" />
+          <mxGeometry x="-906.5" y="80" width="601" height="185" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
