@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T14:43:11.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dGIH38EeG43VPmFp8BZv" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-27T01:12:32.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0KILpuuB_CYFC4vI5rIs" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
-    <mxGraphModel dx="2994" dy="2382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2384" dy="2053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -633,7 +633,7 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-18" value="CodeBase" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-260" y="3876.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-20" value="once codebase tracked in &lt;br&gt;revision control, many deploys&lt;br&gt;Many deploy means same code&lt;br&gt;execute and been deployed on&lt;br&gt;developing system, staging and&lt;br&gt;Production system" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lnfehciOJVkA-raJa4MN-20" value="once codebase is tracked in&lt;br&gt;revision control, many deploys&lt;br&gt;Many deploys mean same code&lt;br&gt;execute and been deployed on&lt;br&gt;developing system, staging and&lt;br&gt;Production system" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-49" y="3843" width="244" height="127" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-21" target="lnfehciOJVkA-raJa4MN-22">
@@ -642,7 +642,7 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-21" value="Config" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-256" y="4002" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-22" value="separate the code and the configuration. &lt;br&gt;Configuration involve the verification &lt;br&gt;information for code to interact with &lt;br&gt;MongoDB, PostgreSQL. This can be&lt;br&gt;implemented by Kubernetes configMap or&lt;br&gt;Secrets, do not hardcode with code" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lnfehciOJVkA-raJa4MN-22" value="separate the code and the configuration.&lt;br&gt;Configuration involves the verification&lt;br&gt;information for code to interact with&lt;br&gt;MongoDB, PostgreSQL. This can be&lt;br&gt;implemented by Kubernetes configMap or&lt;br&gt;Secrets, do not hardcode with code" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-47" y="3976" width="314" height="127" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-24" target="lnfehciOJVkA-raJa4MN-25">
@@ -660,7 +660,7 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-27" value="Build, release,run" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-256" y="4257" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-28" value="While implementing CI and CD on separate k8s&lt;br&gt;cluster especially on prod environment, release &lt;br&gt;and run procedures have to be carefully considered&lt;br&gt;and monitored. Prepare to rollback to the previous&lt;br&gt;version if something back happened." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lnfehciOJVkA-raJa4MN-28" value="While implementing CI and CD on separate k8s&lt;br&gt;cluster especially on prod environment, release &lt;br&gt;and run procedures have to be carefully considered&lt;br&gt;and monitored. Prepare to rollback to the previous&lt;br&gt;version if something bad happened." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-50" y="4233" width="383" height="108" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-31" target="lnfehciOJVkA-raJa4MN-32">
@@ -678,8 +678,8 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-36" value="Port Binding" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-256" y="4464" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-37" value="services expose to the outside via port (this can be &lt;br&gt;implemented via REST API). Instead of using unix&amp;nbsp;&lt;br&gt;socket or IPC" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-56" y="4456" width="377" height="70" as="geometry" />
+        <mxCell id="lnfehciOJVkA-raJa4MN-37" value="services exposed to the outside via port (this can be&lt;br&gt;implemented via REST API). Instead of using Unix&amp;nbsp;&lt;br&gt;socket or IPC" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="4456" width="386" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-39" target="lnfehciOJVkA-raJa4MN-40">
           <mxGeometry relative="1" as="geometry" />
@@ -696,8 +696,8 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-42" value="Dev/Stag/Prod" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-256" y="4686" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-43" value="Developing environment can be arranged and allocate&lt;br&gt;sufficient resources for developers to run and test before&lt;br&gt;optimizing their work. As for staging and production,&lt;br&gt;they have absolutely 100% match for the configuration&lt;br&gt;as services will been sufficiently tested before publish&lt;br&gt;to the production environment. Same configuration involves&lt;br&gt;CPU, Memory, Ingress and Egress configuration etc." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-56" y="4636" width="439" height="146" as="geometry" />
+        <mxCell id="lnfehciOJVkA-raJa4MN-43" value="Developing environments can be arranged and allocate&lt;br&gt;sufficient resources for developers to run and test before&lt;br&gt;optimizing their work. As for staging and production,&lt;br&gt;they have absolutely 100% match for the configuration&lt;br&gt;as services will be sufficiently tested before publishing&lt;br&gt;to the production environment. The same configuration involves&lt;br&gt;CPU, Memory, Ingress and Egress configuration, etc." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="4636" width="468" height="146" as="geometry" />
         </mxCell>
         <mxCell id="lnfehciOJVkA-raJa4MN-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="lnfehciOJVkA-raJa4MN-45" target="lnfehciOJVkA-raJa4MN-46">
           <mxGeometry relative="1" as="geometry" />
@@ -705,14 +705,14 @@
         <mxCell id="lnfehciOJVkA-raJa4MN-45" value="Logging Event" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-256" y="4810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lnfehciOJVkA-raJa4MN-46" value="Logs provides visibility into the behavior of a running app.&lt;br&gt;It should be collected and output into log collection app&lt;br&gt;Such as using the combination of EKF, or Prometheus" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-56" y="4802" width="424" height="70" as="geometry" />
+        <mxCell id="lnfehciOJVkA-raJa4MN-46" value="Logs provide visibility into the behavior of a running app.&lt;br&gt;It should be collected and output into log collection app&lt;br&gt;Such as using the combination of EKF, or Prometheus" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="4802" width="416" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Ey13H4uXq6KT9Ywu7KXO" name="第 2 页">
-    <mxGraphModel dx="2777" dy="1280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
