@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T12:04:00.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7rtl9kjXojFb4d43O5av" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-28T12:07:04.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yBFSXTNrHeYuav8IsJBj" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -722,8 +722,11 @@
             <mxPoint x="65" y="111.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n_RDtHxAtoa_cvilBNTn-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Asynchronous programming: is a multithreading model that&#39;s most applicable&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to networking and communication. Async is non-blocking architecture, which&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;means it doesn&#39;t block further execution while one or more operations are in&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;progress&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="2341" width="563" height="89" as="geometry" />
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Asynchronous programming: is a multithreading model that&#39;s most applicable&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;to networking and communication. Async is non-blocking architecture, which&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;means it doesn&#39;t block further execution while one or more operations are in&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;progress -- take example of texting&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2363" width="563" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-13" value="Synchronous is known as blocking architecture and is for programming reactive &lt;br&gt;systems. As a single-thread model, it follows a strict set of sequences, which&amp;nbsp;&lt;br&gt;means that operations are performed one at a time, in perfect order. While one&lt;br&gt;operation is being performed, other operations are blocked. The completion of&lt;br&gt;the first task triggers the next and so on.&amp;nbsp; -- take phone call as example." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="92.25" y="2465" width="580" height="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
