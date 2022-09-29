@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T04:54:37.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OhVfbhhW7KZwxGnMoBjh" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-29T06:03:31.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eag2cr1F8ODtLrtgjs_A" version="20.3.2" type="github" pages="3">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -1052,6 +1052,38 @@
         </mxCell>
         <mxCell id="HXHrDZCrA2k4NSExaHC0-38" value="Sync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1359" y="1050" width="54" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5lDc3wlO7H5ugHuO9wS5" name="第 3 页">
+    <mxGraphModel dx="2226" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0qC1yadKI6TAw86W-b1L-1" value="Online Cooking Class" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-367" y="10" width="333" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-2" value="Problem I&#39;m solving" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-621.5" y="172" width="174" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-3" value="Market Size" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-403.5" y="172" width="169" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-4" value="Solution" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-185.5" y="172" width="129" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-5" value="Competitive Advantage" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="171" width="208" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-6" value="Segment cooking procedure automatically&lt;br&gt;preparation for the ingredients&lt;br&gt;How to cook step by step which been separated by the mark(instead of moving forward and backward by dragging mouse).&lt;br&gt;Nevertheless, auto convert audio can be implemented based on region where customer exist. There are audio packages smart enough to speak as real human so it would be friendly for get themselves tired of reading translated scripts&lt;br&gt;Meanwhile, the recommendation system can be applied for how and where to buy the same or even the similar ingredients in the near market by implementing the API from other application" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-621.5" y="311" width="190.5" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-7" value="The global Online Cooking market size was valued at USD 255.54 million in 2021 and is expected to expand 11% during the forest period, reaching USD 485.83 million by 2027." style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="308" width="190.5" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="0qC1yadKI6TAw86W-b1L-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="0qC1yadKI6TAw86W-b1L-7" target="0qC1yadKI6TAw86W-b1L-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
