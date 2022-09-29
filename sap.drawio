@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T01:53:58.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="q-OTBBDeoAhJZFUHvIPi" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-29T04:54:37.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OhVfbhhW7KZwxGnMoBjh" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -808,6 +808,27 @@
             <mxPoint x="220.00000000000045" y="5904.47" as="sourcePoint" />
             <mxPoint x="263.24000000000024" y="5904.895" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-44" value="Update Kubernetes with Kubeadm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-247.5" y="6060" width="262" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-45" target="n_RDtHxAtoa_cvilBNTn-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-45" value="update master node" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="6248" width="161.5" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-46" value="1. download and install the new binary version of kubeadm and kubelet package&lt;br&gt;2. check the availability docker image for kube-apiserver, kube-schedular, kube-&lt;br&gt;controller-manager, kube-proxy and CoreDNS by using: kubeadm upgrade plan&lt;br&gt;3. If the kubernetes instances are within private subnets, pull the image first and&amp;nbsp;&lt;br&gt;commit and push to the private docker repo&lt;br&gt;4. Implement kubeadm upgrade apply to the new version&amp;nbsp;&lt;br&gt;5. For the rest master node, switch to the machine and run kubeadm upgrade node&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="6212" width="606" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-47" value="&lt;br&gt;x.y.z, where x is the major version, y is the minor version, and z is the patch version&lt;br&gt;Either kubernetes cluster can update based on the same minor version(same second digits)&amp;nbsp;&lt;br&gt;but different patch version or to a brand new minor version. Skip the minor version is forbiddened&lt;br&gt;. For the upgrading, you&amp;nbsp; can only upgrade to the next level with the same last digit, for example, &lt;br&gt;you can do the upgrading for kubernetes from 1.20.1 to 1.21.3 except from 1.20.1 to 1.22.1&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="6076" width="703" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-49" value="update worker node" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-237.5" y="6487" width="161.5" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-50" value="&lt;span style=&quot;&quot;&gt;1. Before upgrading workernode, drain the node first by ignoring the daemonsets&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;application such as node-exporter, fluentd etc. Download the same new version&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;kubeadm and kubelet and install. Update the kubectl as well.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2. Restart the kubelet service by doing&amp;nbsp; systemctl daemon-reload; systemctl restart&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;kubelet&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;3. Uncordon the worker node to bring it back&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;4.&amp;nbsp; Finally check the version of kubernetes node by using: kubectl get node&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="6422" width="603" height="146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
