@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T12:15:07.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Fj_ZOow-zaPmXxGALF-H" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-29T01:53:58.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="q-OTBBDeoAhJZFUHvIPi" version="20.3.2" type="github" pages="2">
   <diagram id="m62H5eGzoJ7IRP_rFqw5" name="第 1 页">
     <mxGraphModel dx="2701" dy="2008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -727,6 +727,87 @@
         </mxCell>
         <mxCell id="n_RDtHxAtoa_cvilBNTn-13" value="Synchronous is known as blocking architecture and is for programming reactive &lt;br&gt;systems. As a single-thread model, it follows a strict set of sequences, which&amp;nbsp;&lt;br&gt;means that operations are performed one at a time, in perfect order. While one&lt;br&gt;operation is being performed, other operations are blocked. The completion of&lt;br&gt;the first task triggers the next and so on.&amp;nbsp; -- take phone call as example." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="92.25" y="2465" width="580" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-17" value="Procedure of generating Kubernetes cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="4932" width="328" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;entryX=-0.013;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-18" target="n_RDtHxAtoa_cvilBNTn-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13.131578947368325" y="5247.578947368422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-18" value="CA preparation&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="5198.5" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-20" value="Interactive with API provided by security &lt;br&gt;team without generating ca.crt and ca.key&lt;br&gt;The expiration data would be 20 years&lt;br&gt;otherwise crt can be generated via cfssl&amp;nbsp;&lt;br&gt;gencert" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="5193" width="314" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-21" target="n_RDtHxAtoa_cvilBNTn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-21" value="ETCD cluster preparation" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="5062" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-22" value="Based on ETCD fault tolerance, we provide&amp;nbsp;&lt;br&gt;3 node ETCD cluster with 16CPU and 32 GB&lt;br&gt;Memory and 160GB for the data folder (8GB)&lt;br&gt;for ETCD data storage and rest for ETCD&amp;nbsp;&lt;br&gt;periodical backup" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="21" y="5057.5" width="338" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;entryX=-0.013;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-25" target="n_RDtHxAtoa_cvilBNTn-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13.131578947368325" y="5392.578947368422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-25" value="Prepare for host machine&lt;br&gt;(we use bare matel)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="5343.5" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-26" value="including installation for the yum repo, format&lt;br&gt;disk, install docker and turn off swap" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="5367" width="336" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;entryX=-0.013;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="18.131999999999607" y="5548.15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-28" value="Initiate first Kubernetes node&lt;br&gt;(ansible_initial_node)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="5499" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-31" target="n_RDtHxAtoa_cvilBNTn-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-31" value="meta&lt;br&gt;including-installation&amp;nbsp;&lt;br&gt;binary package&lt;br&gt;kubelet;&lt;br&gt;preparing audit-policy.yaml&lt;br&gt;/etc/kubernetes/" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="21" y="5499" width="199" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-33" target="n_RDtHxAtoa_cvilBNTn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-33" value="Initiate first Kubernetes node&lt;br&gt;(ansible_initial_node)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250.5" y="5675" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;endArrow=open;startSize=14;endSize=14;" edge="1" parent="1" source="n_RDtHxAtoa_cvilBNTn-34" target="n_RDtHxAtoa_cvilBNTn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-34" value="Initiate first Kubernetes node&lt;br&gt;(ansible_initial_node)" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250.5" y="5851" width="212.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-37" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;First initial node requires initial.conf&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;including: all the master node&#39;s hostname/IP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pod_subnet- IP range for pods&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;3-etcd-endpoints&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;cluster_name&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;max_pod_cout&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;node_cidr&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;In the ansible playbook tasks, CNI, metrics-server&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;will be installed as well&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="263.5" y="5480" width="370" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-38" value="" style="endArrow=classic;html=1;fontSize=16;startSize=14;endSize=14;curved=1;entryX=0.002;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n_RDtHxAtoa_cvilBNTn-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="221" y="5536" as="sourcePoint" />
+            <mxPoint x="462" y="5693" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-39" value="Specify the initial node first. before attempting to add &lt;br&gt;master node/ worker node, workflow will be run in the &lt;br&gt;jump server and jump server will ask kubeadm to gener-&lt;br&gt;ate new token and rest master node will join the existing&lt;br&gt;cluster with &#39;kubeadm join command&#39;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="5677" width="416" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-42" value="Same as master node added workflow, dynamic inventory&lt;br&gt;has been used for generating ansible inventory file based&amp;nbsp;&lt;br&gt;on ip address input, from 1 to many" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="5870" width="428" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n_RDtHxAtoa_cvilBNTn-43" value="" style="endArrow=classic;html=1;fontSize=16;startSize=14;endSize=14;curved=1;entryX=0.002;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220.00000000000045" y="5904.47" as="sourcePoint" />
+            <mxPoint x="263.24000000000024" y="5904.895" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
